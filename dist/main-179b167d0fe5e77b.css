@@ -1,0 +1,90 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.app-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.todo-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.todo-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.todo-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.todo-button {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.todo-button:hover {
+  background-color: #2275d7;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+  gap: 1rem;
+}
+.todo-item:last-child {
+  border-bottom: none;
+}
+.todo-item .completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-checkbox {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.todo-delete {
+  margin-left: auto;
+  padding: 0.25rem 0.5rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.todo-delete:hover {
+  background-color: #d62c1a;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../styles/main.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAMA;EACI;EACA;EACA;;AAEA;EACI;EACA,OAVK;EAWL;;;AAKR;EACI;EACA;EACA;EACA;;;AAIJ;EACI;EACA;EACA;;;AAIJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA,cA3CQ;;;AAgDhB;EACI;EACA,kBAlDY;EAmDZ;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AAKR;EACI;EACA;EACA;;;AAIJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;;;AAKR;EACI;EACA;EACA;;;AAIJ;EACI;EACA;EACA,kBAhGW;EAiGX;EACA;EACA;EACA;;AAEA;EACI%22,%22file%22:%22main.css%22%7D */
